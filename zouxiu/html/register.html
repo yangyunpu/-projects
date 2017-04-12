@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+<meta name="format-detection" content="telephone=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/ba.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	</head>
+	<body>
+		<header>
+			<span class="left" onclick="history.back(-1)"></span>
+			<p>注册</p>
+			<span class="right"><input type="button" id="btn" value="登录" onclick="login()"/></span>
+		</header>
+		<div class="register">
+			<form>
+		    	<input type="text" class="username" id="username" name="username" placeholder="账号" />
+		        <input type="possword" class="poss" id="poss" name="possword" placeholder="密码" />
+		        <input type="possword" class="aposs" id="aposs" placeholder="重复密码" />
+		       	<input type="button" class="btn" id="btn" value="同意服务协议并注册" onclick="_register()"/>
+		    </form>
+		</div>
+		
+		<footer>
+			<a href="../index.html"><span class="iconfont" style="font-size:0.44rem">&#xe607;</span>首页</a>
+		    <a href="nav.html"><span class="iconfont" style="font-size:0.44rem">&#xe60d;</span>分类</a>
+		    <a href="cat.html"><span class="iconfont" style="font-size:0.44rem">&#xe609;</span>购物车</a>
+		    <a href="myShow.html" class="on"><span class="iconfont" style="font-size:0.44rem">&#xe603;</span>我的秀</a>
+		    <a href="more.html"><span class="iconfont" style="font-size:0.44rem">&#xe600;</span>更多</a>
+		
+		</footer>
+		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
